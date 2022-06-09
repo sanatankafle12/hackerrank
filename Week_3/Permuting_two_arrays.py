@@ -17,13 +17,17 @@ import sys
 
 def twoArrays(k, A, B):
     # Write your code here
-    permuted = []
-    for i in A:
-        for j in B:
-            if(i+j>=k):
-                return("YES")
-    return("NO")
+    A = sorted(A)
+    B = sorted(B)
+    for i in range(len(A)):
+        print(A[i],B[-i-1])
+        if((A[i]+B[-i-1])>=k):
+            continue
+        else:
+            return("NO")
+    return("YES")
 
+    
 if __name__ == '__main__':
 
     q = int(input().strip())
