@@ -1,3 +1,5 @@
 # hackerrank
 
-Here I've solved problems from hackerrank 3 Months preperation kit 
+Here, I've started the hackerrank preparation kit from 
+
+https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit/three-month-week-three/challenges
